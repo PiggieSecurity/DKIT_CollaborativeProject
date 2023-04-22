@@ -18,20 +18,6 @@ public class QuestList : MonoBehaviour
     {
         WriteBook();
     }
-    IEnumerator UpdateBook()
-    {
-        InfoText.text = "In this book you will see the tasks you should do when helping someone.";
-        QuestListText.text = "todo\n";
-        if (!TM.CallAmbulance)
-        {
-            QuestListText.text += "- Call emergency services\n";
-        }
-        if (!TM.administerEpiPen)
-        {
-            QuestListText.text += "- administer EpiPen\n";
-        }
-        yield return null;
-    }
 
     void WriteBook()
     {
@@ -39,11 +25,11 @@ public class QuestList : MonoBehaviour
         QuestListText.text = "todo\n";
         if (!TM.CallAmbulance)
         {
-            QuestListText.text += "Call emergency services";
+            QuestListText.text += "Call emergency services\n";
         }
         if (!TM.administerEpiPen)
         {
-            QuestListText.text += "administer EpiPen";
+            QuestListText.text += "administer EpiPen\n";
         }
     }
 }

@@ -15,7 +15,7 @@ C:/Users/jorik/Downloads/New folder/DKIT_CollaborativeProject/Respond
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-55691
+61562
 Successfully changed project path to: C:/Users/jorik/Downloads/New folder/DKIT_CollaborativeProject/Respond
 C:/Users/jorik/Downloads/New folder/DKIT_CollaborativeProject/Respond
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/jorik/Downloads/New folder/DKIT_CollaborativeProject/Respond
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 163.07 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 196.04 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.6f1 (7da38d85baf6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
@@ -63,90 +63,90 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56376
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56240
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005485 seconds.
+Registered in 0.006003 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 166.77 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 164.09 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.827 seconds
+- Completed reload, in  0.835 seconds
 Domain Reload Profiling:
-	ReloadAssembly (828ms)
-		BeginReloadAssembly (106ms)
+	ReloadAssembly (836ms)
+		BeginReloadAssembly (87ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (604ms)
-			LoadAssemblies (104ms)
+		EndReloadAssembly (623ms)
+			LoadAssemblies (84ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (109ms)
+			SetupTypeCache (138ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (407ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (392ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (167ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (168ms)
-				ProcessInitializeOnLoadMethodAttributes (62ms)
+				RefreshPlugins (164ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (162ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.015479 seconds.
+Registered in 0.020339 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\jorik\Downloads\New folder\DKIT_CollaborativeProject\Respond\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\jorik\Downloads\New folder\DKIT_CollaborativeProject\Respond\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 182.15 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 202.35 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  1.964 seconds
+- Completed reload, in  2.072 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1965ms)
-		BeginReloadAssembly (135ms)
+	ReloadAssembly (2073ms)
+		BeginReloadAssembly (188ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (1665ms)
-			LoadAssemblies (130ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (1702ms)
+			LoadAssemblies (176ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (355ms)
+			SetupTypeCache (416ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (86ms)
-			SetupLoadedEditorAssemblies (1048ms)
+			RebuildScriptCaches (93ms)
+			SetupLoadedEditorAssemblies (990ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (182ms)
-				BeforeProcessingInitializeOnLoad (265ms)
-				ProcessInitializeOnLoadAttributes (465ms)
-				ProcessInitializeOnLoadMethodAttributes (121ms)
-				AfterProcessingInitializeOnLoad (10ms)
+				RefreshPlugins (202ms)
+				BeforeProcessingInitializeOnLoad (171ms)
+				ProcessInitializeOnLoadAttributes (475ms)
+				ProcessInitializeOnLoadMethodAttributes (130ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 2.78 ms, found 9 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.88 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6651 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 64 unused Assets / (0.7 MB). Loaded Objects now: 7112.
-Memory consumption went from 279.7 MB to 278.9 MB.
-Total: 5.675200 ms (FindLiveObjects: 0.683000 ms CreateObjectMapping: 0.717000 ms MarkObjects: 3.845000 ms  DeleteObjects: 0.428800 ms)
+Unloading 6653 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (0.7 MB). Loaded Objects now: 7115.
+Memory consumption went from 264.1 MB to 263.4 MB.
+Total: 6.182900 ms (FindLiveObjects: 0.618200 ms CreateObjectMapping: 0.680000 ms MarkObjects: 4.292200 ms  DeleteObjects: 0.590800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -160,7 +160,53 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 173642.659695 seconds.
-  path: Assets/ElizabethFolder
-  artifactKey: Guid(9b61597c7d3fe3040ab09cece03a4dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ElizabethFolder using Guid(9b61597c7d3fe3040ab09cece03a4dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90abb2ad6a455d04b4250fb34a0d232d') in 0.010432 seconds 
+  Time since last request: 225101.206485 seconds.
+  path: Assets/AdamFolder/Adam_Scripts
+  artifactKey: Guid(03a183e246ed3154c92d0e8d1a0dc94c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AdamFolder/Adam_Scripts using Guid(03a183e246ed3154c92d0e8d1a0dc94c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69d90718b699bcd554e4a843101ddc37') in 0.012131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/AdamFolder/Animations
+  artifactKey: Guid(f90b04034534362408016a3987326add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AdamFolder/Animations using Guid(f90b04034534362408016a3987326add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed66ac802f3bb84b444d935ba6df4bdd') in 0.002397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.140791 seconds.
+  path: Assets/AdamFolder/Animations/Animation used/Dying.fbx
+  artifactKey: Guid(9b29f2658296d974281c30e70da00e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AdamFolder/Animations/Animation used/Dying.fbx using Guid(9b29f2658296d974281c30e70da00e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc9cc9ef83a9f6a95986ea6f84362363') in 0.158394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/AdamFolder/Animations/Animation used/Sitting Dazed.fbx
+  artifactKey: Guid(37a76318d6a14bb4aab002f7c3e7e696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AdamFolder/Animations/Animation used/Sitting Dazed.fbx using Guid(37a76318d6a14bb4aab002f7c3e7e696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7646c0437e2667c3e0fb02b762808e36') in 0.042830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/AdamFolder/Animations/Animation used/Sitting Talking.fbx
+  artifactKey: Guid(4ef32798318019e4ca9cfe0fa7d1b432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AdamFolder/Animations/Animation used/Sitting Talking.fbx using Guid(4ef32798318019e4ca9cfe0fa7d1b432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0495d222459327870b580bb73727877a') in 0.035031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/AdamFolder/Animations/Animation used/Sitting Talking (1).fbx
+  artifactKey: Guid(2d2df9fcdf90cd443b7ecfcecb3a1f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AdamFolder/Animations/Animation used/Sitting Talking (1).fbx using Guid(2d2df9fcdf90cd443b7ecfcecb3a1f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28a825221178e637f986f658e2ea6234') in 0.034732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.894173 seconds.
+  path: Assets/AdamFolder/Characters
+  artifactKey: Guid(9dc3014c0855e7648adee5bcbe772cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AdamFolder/Characters using Guid(9dc3014c0855e7648adee5bcbe772cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3aca1c03759a72aff2c85229ce72917') in 0.003560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.727769 seconds.
+  path: Assets/AdamFolder/Characters/Materials/survivorFemaleA.png
+  artifactKey: Guid(3f1943082a3ec954c876ba7e1dc4739b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AdamFolder/Characters/Materials/survivorFemaleA.png using Guid(3f1943082a3ec954c876ba7e1dc4739b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cff482263908896aae2a17dde110f1f') in 0.059132 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
