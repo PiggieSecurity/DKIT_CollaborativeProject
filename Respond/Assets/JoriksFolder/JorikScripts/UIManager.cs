@@ -7,6 +7,7 @@ public class UIManager : MonoBehaviour
 {
     public GameObject winscreen;
     public GameObject LoseScreen;
+    public GameObject Ambulancescreen;
 
     private void Start()
     {
@@ -18,7 +19,11 @@ public class UIManager : MonoBehaviour
         winscreen.SetActive(true);
         winscreen.GetComponent<AudioSource>().Play();
     }
-
+    public void AmbulanceEnd()
+    {
+        Ambulancescreen.SetActive(true);
+        Ambulancescreen.GetComponent<AudioSource>().Play();
+    }
 
     public void FailedChallenge()
     {
