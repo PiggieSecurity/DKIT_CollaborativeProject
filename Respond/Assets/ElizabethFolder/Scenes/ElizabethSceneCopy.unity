@@ -22502,7 +22502,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68e96f97f68b66d4a87999859cb4a91a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NumberInput: {fileID: 0}
+  NumberInput: {fileID: 1606031406}
   callingScreenCanvas: {fileID: 911145281}
   phoneScreenCanvas: {fileID: 199309622}
   onCallCanvas: {fileID: 1116318906}

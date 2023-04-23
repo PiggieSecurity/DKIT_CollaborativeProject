@@ -20,12 +20,13 @@ public class PhoneInteraction : MonoBehaviour
     public GameObject phoneScreenCanvas;
     public GameObject onCallCanvas;
     
-    // initailising call button , delete button, and end call button
+    // initializing call button , delete button, and end call button
     public Button myCall;
-    public Button DelInput;
-    public Button EndCall;
+    public Button delInput;
+    public Button endCall;
+    public Button endCall2;
 
-    // boolean for call button,end call button, delete button to be used to check if it is and isnt pressed
+    // boolean for call button,end call button, delete button to be used to check if it is and isn't pressed
     private bool callButtonIsPressed;
     private bool endCallButtonPressed;
     private bool deleteButtonPressed;
@@ -37,7 +38,10 @@ public class PhoneInteraction : MonoBehaviour
     private bool isGrabbed;
     
     //sounds and names 
+    public AudioSource[] phoneSound;
     public AudioSource callingSound;
+    public AudioSource phoneOperator;
+    public AudioSource phoneEnd;
 
     /*
     public PhoneInteraction(bool phonePickedUp)
@@ -47,21 +51,21 @@ public class PhoneInteraction : MonoBehaviour
     */
 
     //convert the numbers to string 
-    /*public void Number(int number)
+    public void Number(int number)
     {
         NumberInput.text += number.ToString();
-    }*/
+    }
 
     void Start()
     { 
         // references for the sound and interactable object 
-        callingSound = GetComponent<AudioSource>();
-        
+        AudioSource[] phoneSound= GetComponents<AudioSource>();
+        callingSound = phoneSound[0];
+        phoneOperator = phoneSound[1];
+        phoneEnd = phoneSound[3];
+
         phoneGrab = GetComponent<XRGrabInteractable>();
         
-        
-
-
 
         phoneScreenCanvas.SetActive(false);// hide the phone screen at the start of the game 
         callingScreenCanvas.SetActive(false);// hide call screen canvas at the start
@@ -71,6 +75,7 @@ public class PhoneInteraction : MonoBehaviour
         
         // setting the grabbed boolean to false at the start and adding a listener for the phone to be grabbed 
         isGrabbed = false;
+        
             // this statemnet properly intializes the phone grab and make sure its value isnt null before adding a listener 
         if (phoneGrab != null)
         {
@@ -81,32 +86,30 @@ public class PhoneInteraction : MonoBehaviour
         
     }
 
-    /*public void icqncqll(string mystring)
-    {
-        
-    }*/
+    
     void Update()
     {
         
         // check if button is pressed 
-        if (Input.GetButtonDown("myCall"))
+        if (Input.GetButtonDown("MyCall"))
         {
             callButtonIsPressed = true;
         }
-        // check is delete button pressed
-        if (Input.GetButtonDown("EndCall"))
+        // check is end call button pressed
+        if (Input.GetButtonDown("EndCall") )
         {
             endCallButtonPressed = true;
         }
         
-        // check if end call button is pressed 
-        if (Input.GetButtonDown("DelInput"))
+        // check if delete button is pressed 
+        if (Input.GetButtonDown("DeleteInput"))
         {
-            endCallButtonPressed = true;
+            deleteButtonPressed = true;
+            DeleteText();
         }
         
         //if statement if the text entered from pressing the buttons is not 999 or 112
-        if (NumberInput.text != emergNum || NumberInput.text != emergNum2 && callButtonIsPressed==true  )
+        if (NumberInput.text != emergNum && callButtonIsPressed==true || NumberInput.text != emergNum2 && callButtonIsPressed==true  )
         {
             NumberInput.text = "Incorrect";
             //coroutine to erase the error message
@@ -121,7 +124,7 @@ public class PhoneInteraction : MonoBehaviour
         }
         
         //if statement if the text entered from pressing the buttons is  999 or 112
-        if (NumberInput.text == emergNum || NumberInput.text == emergNum2 && callButtonIsPressed==true  )
+        if (NumberInput.text == emergNum && callButtonIsPressed==true || NumberInput.text == emergNum2 && callButtonIsPressed==true  )
         {
             //calls method for calling screen 
             CallingScreen();
@@ -136,7 +139,8 @@ public class PhoneInteraction : MonoBehaviour
                 phoneScreenCanvas.SetActive(false);
                 break;
         }
-        
+
+       
     } 
     
     //function for grabbing phone ties with the listener
@@ -176,11 +180,31 @@ public class PhoneInteraction : MonoBehaviour
     private void OnCallScreen()
     {
         onCallCanvas.SetActive(true);
-       // if ()
-       // {
-       // }
-        // put audio here greeting and saying that emergency services are on the way to the location 
+        //  greeting and saying that emergency services are on the way to the location 
+        phoneOperator.Play();
+
+        if (endCallButtonPressed==true)
+        {
+            //invokes the finished method when the phone operator stops speaking
+            Invoke("Finished",phoneOperator.clip.length );
+            
+        }
+       
         // end call button add code for it to stop the call and end all sounds  
+    }
+// function for when the phone call ends
+    private void Finished()
+    {
+        phoneEnd.Play();
+        phoneScreenCanvas.SetActive(false);// hide the phone screen  
+        callingScreenCanvas.SetActive(false);// hide call screen 
+        onCallCanvas.SetActive(false);// hide oncall screen 
+    }
+    
+//make better by deleteing individual numbers if there is time 
+    private void DeleteText()
+    { // erases the number input
+        NumberInput.text = ""; 
     }
 }
 
