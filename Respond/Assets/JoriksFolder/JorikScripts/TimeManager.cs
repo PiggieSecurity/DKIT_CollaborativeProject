@@ -21,7 +21,6 @@ public class TimeManager : MonoBehaviour
     private bool hasplayedAudio = false;
 
     Timer mytimer = new Timer(60000);
-    bool Startlevel = true;
 
     public UIManager UIScreens;
 
@@ -30,13 +29,7 @@ public class TimeManager : MonoBehaviour
     void Start()
     {
         SetDate();
-        SetTime();
-        if (Startlevel)
-        {
-            mytimer.Start();
-            mytimer.Elapsed += OnTimedEvent;
-        }
-        
+        SetTime();  
     }
     private void Update()
     {
@@ -69,6 +62,14 @@ public class TimeManager : MonoBehaviour
             }
         }
         
+    }
+
+    public void Starttimer()
+    {
+        mytimer.Start();
+        mytimer.Elapsed += OnTimedEvent;
+        Debug.Log(mytimer);
+        Debug.Log(mytime.Minute.ToString() + mytime.Second.ToString());
     }
     private void OnTimedEvent(System.Object source, ElapsedEventArgs e)
     {

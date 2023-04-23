@@ -22,7 +22,7 @@ public class UIManager : MonoBehaviour
     public void AmbulanceEnd()
     {
         Ambulancescreen.SetActive(true);
-        Ambulancescreen.GetComponent<AudioSource>().Play()
+        Ambulancescreen.GetComponent<AudioSource>().Play();
     }
 
     public void FailedChallenge()
