@@ -10,8 +10,8 @@ public class TimeManager : MonoBehaviour
 
     public TMP_Text timeScreen;
     public TMP_Text DateScreen;
-    public AudioSource Audio;
 
+    public AudioSource Audio;
     public AudioClip WinAudio;
     public AudioClip LoseAudio;
     public AudioClip AmbulanceAudio;
@@ -44,10 +44,10 @@ public class TimeManager : MonoBehaviour
         SetTime();
         if (!hasplayedAudio)
         {
-            hasplayedAudio = true;
             if (administerEpiPen)
             {
                 UIScreens.SavedPerson();
+                hasplayedAudio = true;
                 Audio.clip = WinAudio;
                 Audio.Play();
             }
@@ -55,12 +55,14 @@ public class TimeManager : MonoBehaviour
             {
                 if (CallAmbulance)
                 {
+                    hasplayedAudio = true;
                     UIScreens.FailedChallenge();
                     Audio.clip = AmbulanceAudio;
                     Audio.Play();
                 }
                 else
                 {
+                    hasplayedAudio = true;
                     Audio.clip = LoseAudio;
                     Audio.Play();
                 }
@@ -121,7 +123,6 @@ public class TimeManager : MonoBehaviour
         DateScreen.text= DateScreen.text + DateTime.Now.Day.ToString();
     }
 
-    //TESTFUNCTIONS DELETE AFTER ALPHA
     public void WinGame()
     {
         CallAmbulance = true;
