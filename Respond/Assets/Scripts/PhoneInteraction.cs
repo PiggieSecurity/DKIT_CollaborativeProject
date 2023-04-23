@@ -5,10 +5,12 @@ using UnityEngine.UI;
 using TMPro;
 using UnityEngine.Events;
 using UnityEngine.Serialization;
+using UnityEngine.XR;
 using UnityEngine.XR.Interaction.Toolkit;
 
 public class PhoneInteraction : MonoBehaviour
 {
+    [SerializeField]private XRBaseInteractor interactor ;
     [SerializeField] private TMP_Text NumberInput;
     
     // correct emergency numbers 
@@ -80,9 +82,9 @@ public class PhoneInteraction : MonoBehaviour
         if (phoneGrab != null)
         {
             phoneGrab.onSelectEntered.AddListener(PhoneGrabbed);
-            phoneGrab.onSelectExited.AddListener(PhoneDropped);
+            
         }
-        
+        phoneGrab.onSelectExited.AddListener(PhoneDropped);
         
     }
 
@@ -109,7 +111,7 @@ public class PhoneInteraction : MonoBehaviour
         }
         
         //if statement if the text entered from pressing the buttons is not 999 or 112
-        if (NumberInput.text != emergNum && callButtonIsPressed==true || NumberInput.text != emergNum2 && callButtonIsPressed==true  )
+        if (NumberInput.text != emergNum && callButtonIsPressed==true || NumberInput.text != emergNum2 && callButtonIsPressed==true)
         {
             NumberInput.text = "Incorrect";
             //coroutine to erase the error message
@@ -124,7 +126,7 @@ public class PhoneInteraction : MonoBehaviour
         }
         
         //if statement if the text entered from pressing the buttons is  999 or 112
-        if (NumberInput.text == emergNum && callButtonIsPressed==true || NumberInput.text == emergNum2 && callButtonIsPressed==true  )
+        if (NumberInput.text == emergNum && callButtonIsPressed==true || NumberInput.text == emergNum2 && callButtonIsPressed==true)
         {
             //calls method for calling screen 
             CallingScreen();
@@ -133,10 +135,12 @@ public class PhoneInteraction : MonoBehaviour
         switch (isGrabbed)
         {
             case true:
-                phoneScreenCanvas.SetActive(true);
+
+                
+                PhoneGrabbed(interactor);
                 break;
             case false:
-                phoneScreenCanvas.SetActive(false);
+               PhoneDropped(interactor);
                 break;
         }
 
@@ -146,14 +150,14 @@ public class PhoneInteraction : MonoBehaviour
     //function for grabbing phone ties with the listener
     private void PhoneGrabbed(XRBaseInteractor interactor)
     {
-        isGrabbed = true;
        
+        phoneScreenCanvas.SetActive(true);
     }
     
    // function for phone being dropped, tied to the listener
    private void PhoneDropped(XRBaseInteractor interactor)
    {
-       isGrabbed = false;
+       phoneScreenCanvas.SetActive(false);
        
    }
 
@@ -206,5 +210,9 @@ public class PhoneInteraction : MonoBehaviour
     { // erases the number input
         NumberInput.text = ""; 
     }
+
+
+    
+    
 }
 
