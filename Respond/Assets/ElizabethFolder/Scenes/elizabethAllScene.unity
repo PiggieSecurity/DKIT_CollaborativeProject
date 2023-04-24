@@ -48570,6 +48570,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68e96f97f68b66d4a87999859cb4a91a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  interactorR: {fileID: 918476484}
+  interactorL: {fileID: 918476484}
   NumberInput: {fileID: 902347700}
   callingScreenCanvas: {fileID: 66294220}
   phoneScreenCanvas: {fileID: 941746492}

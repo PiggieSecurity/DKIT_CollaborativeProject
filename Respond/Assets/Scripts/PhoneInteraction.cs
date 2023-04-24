@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using JetBrains.Annotations;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
@@ -10,7 +11,9 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class PhoneInteraction : MonoBehaviour
 {
-    [SerializeField]private XRBaseInteractor interactor ;
+    [SerializeField] private XRBaseInteractor interactorR ;
+    [SerializeField] private XRBaseInteractor interactorL ;
+
     [SerializeField] private TMP_Text NumberInput;
     
     // correct emergency numbers 
@@ -132,33 +135,38 @@ public class PhoneInteraction : MonoBehaviour
             CallingScreen();
         }
         // setting screen visibilty for when you pick up and drop phone 
-        switch (isGrabbed)
+        /*switch (isGrabbed)
         {
             case true:
-
-                
-                PhoneGrabbed(interactor);
+               // PhoneGrabbed();
                 break;
             case false:
-               PhoneDropped(interactor);
+              // PhoneDropped(interactor);
                 break;
-        }
+        }*/
 
        
     } 
     
     //function for grabbing phone ties with the listener
-    private void PhoneGrabbed(XRBaseInteractor interactor)
+    private void PhoneGrabbed(XRBaseInteractor interactorR)
     {
-       
-        phoneScreenCanvas.SetActive(true);
+        if (!isGrabbed)
+        {
+            phoneScreenCanvas.gameObject.SetActive(true);
+            isGrabbed = true;
+        }
     }
     
    // function for phone being dropped, tied to the listener
-   private void PhoneDropped(XRBaseInteractor interactor)
+   private void PhoneDropped(XRBaseInteractor interactorR/*, XRBaseInteractor interactorL*/)
    {
-       phoneScreenCanvas.SetActive(false);
-       
+       if (isGrabbed)
+       {
+           phoneScreenCanvas.gameObject.SetActive(false);
+           isGrabbed = false;
+       }
+
    }
 
    // function for calling screen
@@ -177,20 +185,24 @@ public class PhoneInteraction : MonoBehaviour
         yield return new WaitForSeconds(7);// leaves everything as is for 7 seconds before switching screens and stopping the calling sound 
         callingScreenCanvas.SetActive(false);
         callingSound.Stop();
-        onCallCanvas.SetActive(true);
-        OnCallScreen();
+      
+        OnCallScreen();// summons the ongoing call function for the first time 
+        onCallCanvas.SetActive(true);// sets the canvas to visible 
     }
 
     private void OnCallScreen()
     {
-        onCallCanvas.SetActive(true);
-        //  greeting and saying that emergency services are on the way to the location 
-        phoneOperator.Play();
+        if (onCallCanvas==true)
+        {
+            //  greeting and saying that emergency services are on the way to the location
+            phoneOperator.Play();
+        }
 
         if (endCallButtonPressed==true)
         {
             //invokes the finished method when the phone operator stops speaking
-            Invoke("Finished",phoneOperator.clip.length );
+          //  Invoke("Finished",phoneOperator.clip.length );
+          phoneOperator.Stop();
             
         }
        
@@ -202,10 +214,10 @@ public class PhoneInteraction : MonoBehaviour
         phoneEnd.Play();
         phoneScreenCanvas.SetActive(false);// hide the phone screen  
         callingScreenCanvas.SetActive(false);// hide call screen 
-        onCallCanvas.SetActive(false);// hide oncall screen 
+        onCallCanvas.SetActive(false);// hide on call screen 
     }
     
-//make better by deleteing individual numbers if there is time 
+//make better by deleting individual numbers if there is time 
     private void DeleteText()
     { // erases the number input
         NumberInput.text = ""; 
