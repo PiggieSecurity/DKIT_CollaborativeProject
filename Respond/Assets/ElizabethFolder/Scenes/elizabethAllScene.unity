@@ -19882,7 +19882,19 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
       m_Calls: []
@@ -28352,7 +28364,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5362a76809c617a4cb9a1096a6f52f30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FirstPosition: {fileID: 1734810051}
 --- !u!1001 &1132865748
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30587,7 +30598,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5362a76809c617a4cb9a1096a6f52f30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FirstPosition: {fileID: 80148941}
 --- !u!195 &1196153143
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -32999,47 +33009,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1284962446}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1284962448 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 34b504554e61a904fbef0ebc3a74ebb6,
-    type: 3}
-  m_PrefabInstance: {fileID: 1284962446}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1284962449
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1284962448}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5362a76809c617a4cb9a1096a6f52f30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  FirstPosition: {fileID: 0}
---- !u!195 &1284962450
-NavMeshAgent:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1284962448}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 3.5
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 2
-  m_BaseOffset: 0
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
 --- !u!1001 &1285219687
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37496,17 +37465,17 @@ MonoBehaviour:
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 1
+  m_MovementType: 2
   m_VelocityDamping: 1
   m_VelocityScale: 1
   m_AngularVelocityDamping: 1
   m_AngularVelocityScale: 1
   m_TrackPosition: 1
-  m_SmoothPosition: 1
+  m_SmoothPosition: 0
   m_SmoothPositionAmount: 5
   m_TightenPosition: 0.5
   m_TrackRotation: 1
-  m_SmoothRotation: 1
+  m_SmoothRotation: 0
   m_SmoothRotationAmount: 5
   m_TightenRotation: 0.5
   m_ThrowOnDetach: 1
@@ -37561,7 +37530,20 @@ Halo:
   m_Color:
     serializedVersion: 2
     rgba: 4278648703
-  m_Size: 2
+  m_Size: 20
+--- !u!65 &1465118984
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1465118977}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.06688931, y: 0.0069652298, z: 0.13801868}
+  m_Center: {x: -0.00000011920929, y: 0.0034847574, z: 0.00000017881393}
 --- !u!1001 &1472633525
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48570,8 +48552,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68e96f97f68b66d4a87999859cb4a91a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactorR: {fileID: 918476484}
-  interactorL: {fileID: 918476484}
   NumberInput: {fileID: 902347700}
   callingScreenCanvas: {fileID: 66294220}
   phoneScreenCanvas: {fileID: 941746492}

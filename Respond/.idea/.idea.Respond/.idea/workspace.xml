@@ -13,6 +13,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/AdamFolder/Adam_Scripts/Npc_NavMesh.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@2.3.0/Runtime/Interaction/Interactables/XRBaseInteractable.deprecated.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Dropbox/PC/Downloads/ParticleController.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -87,6 +88,8 @@
       <workItem from="1682249370283" duration="4482000" />
       <workItem from="1682275036537" duration="6016000" />
       <workItem from="1682334085438" duration="2019000" />
+      <workItem from="1682342751075" duration="477000" />
+      <workItem from="1682343623153" duration="3244000" />
     </task>
     <servers />
   </component>

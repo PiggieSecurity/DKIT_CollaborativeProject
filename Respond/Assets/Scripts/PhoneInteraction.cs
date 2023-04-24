@@ -11,8 +11,8 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class PhoneInteraction : MonoBehaviour
 {
-    [SerializeField] private XRBaseInteractor interactorR ;
-    [SerializeField] private XRBaseInteractor interactorL ;
+    //[SerializeField] private XRBaseInteractor interactorR ;
+    //[SerializeField] private XRBaseInteractor interactorL ;
 
     [SerializeField] private TMP_Text NumberInput;
     
@@ -67,7 +67,7 @@ public class PhoneInteraction : MonoBehaviour
         AudioSource[] phoneSound= GetComponents<AudioSource>();
         callingSound = phoneSound[0];
         phoneOperator = phoneSound[1];
-        phoneEnd = phoneSound[3];
+        phoneEnd = phoneSound[2];
 
         phoneGrab = GetComponent<XRGrabInteractable>();
         
@@ -81,13 +81,16 @@ public class PhoneInteraction : MonoBehaviour
         // setting the grabbed boolean to false at the start and adding a listener for the phone to be grabbed 
         isGrabbed = false;
         
+            /*
             // this statemnet properly intializes the phone grab and make sure its value isnt null before adding a listener 
         if (phoneGrab != null)
         {
             phoneGrab.onSelectEntered.AddListener(PhoneGrabbed);
+            phoneGrab.onSelectExited.AddListener(PhoneDropped);
             
         }
-        phoneGrab.onSelectExited.AddListener(PhoneDropped);
+        */
+       
         
     }
 
@@ -134,22 +137,24 @@ public class PhoneInteraction : MonoBehaviour
             //calls method for calling screen 
             CallingScreen();
         }
+        /*
         // setting screen visibilty for when you pick up and drop phone 
-        /*switch (isGrabbed)
+        switch (isGrabbed)
         {
             case true:
-               // PhoneGrabbed();
+                PhoneGrabbed();
                 break;
             case false:
-              // PhoneDropped(interactor);
+              PhoneDropped();
                 break;
-        }*/
+        }
+        */
 
        
     } 
     
-    //function for grabbing phone ties with the listener
-    private void PhoneGrabbed(XRBaseInteractor interactorR)
+    /*//function for grabbing phone ties with the listener
+    public void PhoneGrabbed(XRBaseInteractor interactor)
     {
         if (!isGrabbed)
         {
@@ -159,7 +164,7 @@ public class PhoneInteraction : MonoBehaviour
     }
     
    // function for phone being dropped, tied to the listener
-   private void PhoneDropped(XRBaseInteractor interactorR/*, XRBaseInteractor interactorL*/)
+   public void PhoneDropped(XRBaseInteractor interactor)
    {
        if (isGrabbed)
        {
@@ -167,7 +172,7 @@ public class PhoneInteraction : MonoBehaviour
            isGrabbed = false;
        }
 
-   }
+   }*/
 
    // function for calling screen
     private void CallingScreen()
