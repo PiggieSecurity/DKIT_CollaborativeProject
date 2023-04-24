@@ -35,7 +35,7 @@ public enum AIState {
         break; 
            }     
    
-float distanceToPlayer = Vector3.Distance(transform.position, Victim.transform.position);
+ float distanceToPlayer = Vector3.Distance(transform.position, Victim.transform.position);
    if ((currentState == AIState.Idle || currentState == AIState.Panic) && distanceToPlayer < 5f) {
       {
          currentState = AIState.Following;
