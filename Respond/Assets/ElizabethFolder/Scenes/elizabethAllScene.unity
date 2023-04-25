@@ -3426,7 +3426,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1961792596}
         m_TargetAssemblyTypeName: UnityEngine.Component, UnityEngine
         m_MethodName: BroadcastMessage
         m_Mode: 5
@@ -3560,7 +3560,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1961792596}
         m_TargetAssemblyTypeName: UnityEngine.Component, UnityEngine
         m_MethodName: BroadcastMessage
         m_Mode: 5
@@ -7906,7 +7906,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1961792596}
         m_TargetAssemblyTypeName: UnityEngine.Component, UnityEngine
         m_MethodName: BroadcastMessage
         m_Mode: 5
@@ -9645,7 +9645,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 482731106}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1961792594}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &482731106
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26616,7 +26628,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1961792596}
         m_TargetAssemblyTypeName: UnityEngine.Component, UnityEngine
         m_MethodName: BroadcastMessage
         m_Mode: 5
@@ -37417,7 +37429,19 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
       m_Calls: []
@@ -43813,7 +43837,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1961792596}
         m_TargetAssemblyTypeName: UnityEngine.Component, UnityEngine
         m_MethodName: BroadcastMessage
         m_Mode: 5
@@ -47882,7 +47906,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1961792596}
         m_TargetAssemblyTypeName: UnityEngine.Component, UnityEngine
         m_MethodName: BroadcastMessage
         m_Mode: 5
@@ -48596,7 +48620,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 3e871bebf4d996247a2ce85fbad62317, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -48692,7 +48716,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 6a0ef2892a7430549be598fdbd3427ef, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -49031,7 +49055,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1961792596}
         m_TargetAssemblyTypeName: UnityEngine.Component, UnityEngine
         m_MethodName: BroadcastMessage
         m_Mode: 5
@@ -49430,7 +49454,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1961792596}
         m_TargetAssemblyTypeName: UnityEngine.Component, UnityEngine
         m_MethodName: BroadcastMessage
         m_Mode: 5
@@ -49863,7 +49887,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1961792596}
         m_TargetAssemblyTypeName: UnityEngine.Component, UnityEngine
         m_MethodName: BroadcastMessage
         m_Mode: 5
@@ -51286,7 +51310,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1961792596}
         m_TargetAssemblyTypeName: UnityEngine.Component, UnityEngine
         m_MethodName: BroadcastMessage
         m_Mode: 5
