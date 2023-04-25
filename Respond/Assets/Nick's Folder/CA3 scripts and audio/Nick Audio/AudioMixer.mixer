@@ -37,6 +37,8 @@ AudioMixerController:
   m_ExposedParameters:
   - guid: cacd56668813eda458ee3eecd1fd80f2
     name: Ambiance
+  - guid: 0e5eaf005fb57f74299ebc1e70b7df64
+    name: SFX
   m_AudioMixerGroupViews:
   - guids:
     - 2a32831a60bfbae4b8a8964498842569
@@ -90,7 +92,8 @@ AudioMixerSnapshotController:
   m_AudioMixer: {fileID: 24100000}
   m_SnapshotID: 7961f2b319b8b9448b5a11f931a5d69d
   m_FloatValues:
-    cacd56668813eda458ee3eecd1fd80f2: 0
+    0e5eaf005fb57f74299ebc1e70b7df64: -0.39762527
+    cacd56668813eda458ee3eecd1fd80f2: -0.002441872
   m_TransitionOverrides: {}
 --- !u!244 &581517326694138184
 AudioMixerEffectController:

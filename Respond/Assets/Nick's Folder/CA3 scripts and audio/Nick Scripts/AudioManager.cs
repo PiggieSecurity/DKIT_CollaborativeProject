@@ -9,7 +9,7 @@ public class AudioManager : MonoBehaviour
     [SerializeField] AudioSource outsideSource;
     [SerializeField] AudioSource bellSource;
     [SerializeField] AudioSource footstepSource;
-    [SerializeField] AudioSource epipenSource;
+    //[SerializeField] AudioSource epipenSource;
     [SerializeField] AudioSource dialSource;
     [SerializeField] AudioSource pickupSource;
 
@@ -18,7 +18,7 @@ public class AudioManager : MonoBehaviour
     public AudioClip outside;
     public AudioClip bell;
     public AudioClip footstep;
-    public AudioClip epipen;
+    //public AudioClip epipen;
     public AudioClip dial;
     public AudioClip pickup;
 

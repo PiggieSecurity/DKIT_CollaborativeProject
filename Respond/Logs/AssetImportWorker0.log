@@ -1,17 +1,17 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.6f1 (7da38d85baf6) revision 8233869'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 16340 MB
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 16205 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-D:\Stuff im vaguely aware of\College stuff\Unity 2021.3.6f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2021.3.6f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/Stuff im vaguely aware of/DKIT_CollaborativeProject/Respond
+C:/Users/jorik/Downloads/New folder/DKIT_CollaborativeProject/Respond
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
@@ -55,10 +55,10 @@ Initialize engine version: 2021.3.6f1 (7da38d85baf6)
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f82)
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
     Vendor:   NVIDIA
-    VRAM:     3962 MB
-    Driver:   31.0.15.1694
+    VRAM:     6023 MB
+    Driver:   30.0.14.9717
 Initialize mono
 Mono path[0] = 'D:/Stuff im vaguely aware of/College stuff/Unity 2021.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Stuff im vaguely aware of/College stuff/Unity 2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
@@ -88,13 +88,16 @@ Domain Reload Profiling:
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (39ms)
 			SetupLoadedEditorAssemblies (472ms)
+
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
+
 				RefreshPlugins (203ms)
 				BeforeProcessingInitializeOnLoad (2ms)
 				ProcessInitializeOnLoadAttributes (187ms)
 				ProcessInitializeOnLoadMethodAttributes (68ms)
+
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -103,8 +106,8 @@ Platform modules already initialized, skipping
 Registering precompiled user dll's ...
 Registered in 0.025748 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Stuff im vaguely aware of\DKIT_CollaborativeProject\Respond\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image D:\Stuff im vaguely aware of\DKIT_CollaborativeProject\Respond\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jorik\Downloads\New folder\DKIT_CollaborativeProject\Respond\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jorik\Downloads\New folder\DKIT_CollaborativeProject\Respond\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 197.05 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -175,8 +178,8 @@ Received Prepare
 Registering precompiled user dll's ...
 Registered in 0.029299 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Stuff im vaguely aware of\DKIT_CollaborativeProject\Respond\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image D:\Stuff im vaguely aware of\DKIT_CollaborativeProject\Respond\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jorik\Downloads\New folder\DKIT_CollaborativeProject\Respond\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jorik\Downloads\New folder\DKIT_CollaborativeProject\Respond\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 1.73 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -186,7 +189,7 @@ Domain Reload Profiling:
 	ReloadAssembly (1988ms)
 		BeginReloadAssembly (245ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (55ms)
