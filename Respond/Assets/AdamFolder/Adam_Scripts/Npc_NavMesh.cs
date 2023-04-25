@@ -10,12 +10,12 @@ public enum AIState {
     Idle,Panic,Following
 }
     private NavMeshAgent _navMeshAgent;
-    private GameObject Tagged;
+    private GameObject Victim;
     public AIState currentState = AIState.Idle;
 
     void Start() {
         _navMeshAgent = GetComponent<NavMeshAgent>();
-        Tagged = GameObject.FindWithTag("Tag");
+        Victim = GameObject.FindWithTag("Victim");
     }
 
     void Update() {
@@ -31,11 +31,11 @@ public enum AIState {
          }
          break;
         case AIState.Following:
-        _navMeshAgent.SetDestination(Tagged.transform.position);
+        _navMeshAgent.SetDestination(Victim.transform.position);
         break; 
            }     
    
- float distanceToPlayer = Vector3.Distance(transform.position, Tagged.transform.position);
+float distanceToPlayer = Vector3.Distance(transform.position, Victim.transform.position);
    if ((currentState == AIState.Idle || currentState == AIState.Panic) && distanceToPlayer < 5f) {
       {
          currentState = AIState.Following;
