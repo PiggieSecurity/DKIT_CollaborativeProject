@@ -1,5 +1,5 @@
 # DKIT_CollaborativeProject
-this is a project made for the course Collab project 2 at dkit
+this is a project made for the course Collab project 2 at dkit using unity versoin 2021.3.6
 
 ## Respond
 
