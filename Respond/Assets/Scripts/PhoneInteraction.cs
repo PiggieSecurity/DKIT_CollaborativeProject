@@ -161,6 +161,7 @@ public class PhoneInteraction : MonoBehaviour
         {
             //calls method for calling screen 
             CallingScreen();
+            phoneScreenCanvas.SetActive(false);// hide the phone screen  
         }
         
         //if statement if the text entered from pressing the buttons is not 999 or 112
@@ -203,24 +204,28 @@ public class PhoneInteraction : MonoBehaviour
 
     private void OnCallScreen()
     {
-        if (onCallCanvas==true)
+        if (onCallCanvas == true)
         {
             //  greeting and saying that emergency services are on the way to the location
             phoneOperator.Play();
+            
+            //invokes the finished method when the phone operator stops speaking
+            Invoke("Finished",phoneOperator.clip.length );
+
         }
 
         if (endCallButtonPressed==true)
         {
-            //invokes the finished method when the phone operator stops speaking
-          //  Invoke("Finished",phoneOperator.clip.length );
+           
           phoneOperator.Stop();
+          Finished();// calls this method 
             
         }
        
         // end call button add code for it to stop the call and end all sounds  
     }
 // function for when the phone call ends
-    private void Finished()
+    public void Finished()
     {
         phoneEnd.Play();
         phoneScreenCanvas.SetActive(false);// hide the phone screen  
@@ -229,7 +234,7 @@ public class PhoneInteraction : MonoBehaviour
     }
     
 //make better by deleting individual numbers if there is time 
-    private void DeleteText()
+    public void DeleteText()
     { // erases the number input
         NumberInput.text = ""; 
     }
