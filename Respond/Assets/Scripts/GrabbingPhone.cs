@@ -12,7 +12,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class GrabbingPhone : MonoBehaviour
 {
-    private  XRGrabInteractable phoneGrab;
+    public  XRGrabInteractable phoneGrab;
     public GameObject phoneScreenCanvas;
     
     // Start is called before the first frame update

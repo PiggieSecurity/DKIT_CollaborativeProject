@@ -116,27 +116,7 @@ public class PhoneInteraction : MonoBehaviour
             DeleteText();
         }
         
-        //if statement if the text entered from pressing the buttons is not 999 or 112
-        if (NumberInput.text != emergNum && callButtonIsPressed==true || NumberInput.text != emergNum2 && callButtonIsPressed==true)
-        {
-            NumberInput.text = "Incorrect";
-            //coroutine to erase the error message
-            StartCoroutine(IncorrectErrorMessage());
-        }
-
-        IEnumerator IncorrectErrorMessage()
-        {
-            yield return new WaitForSeconds(3);// 3 second wait
-            NumberInput.text = "";//
-
-        }
         
-        //if statement if the text entered from pressing the buttons is  999 or 112
-        if (NumberInput.text == emergNum && callButtonIsPressed==true || NumberInput.text == emergNum2 && callButtonIsPressed==true)
-        {
-            //calls method for calling screen 
-            CallingScreen();
-        }
         /*
         // setting screen visibilty for when you pick up and drop phone 
         switch (isGrabbed)
@@ -173,8 +153,34 @@ public class PhoneInteraction : MonoBehaviour
        }
 
    }*/
+    // function for when you press call or delete
+    public void EnterNumberPressButton()
+    {
+        //if statement if the text entered from pressing the buttons is  999 or 112
+        if (NumberInput.text == emergNum /*&& callButtonIsPressed==true*/ || NumberInput.text == emergNum2  /*&& callButtonIsPressed==true*/)
+        {
+            //calls method for calling screen 
+            CallingScreen();
+        }
+        
+        //if statement if the text entered from pressing the buttons is not 999 or 112
+        //if (NumberInput.text != emergNum && callButtonIsPressed==true || NumberInput.text != emergNum2 && callButtonIsPressed==true)
+        else
+        {
+            NumberInput.text = "Incorrect";
+            //coroutine to erase the error message
+            StartCoroutine(IncorrectErrorMessage());
+        }
 
-   // function for calling screen
+        IEnumerator IncorrectErrorMessage()
+        {
+            yield return new WaitForSeconds(3);// 3 second wait
+            NumberInput.text = "";//
+
+        }
+    }
+
+    // function for calling screen
     private void CallingScreen()
     {
         // shows calling screen 
