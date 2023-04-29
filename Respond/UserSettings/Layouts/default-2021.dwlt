@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 113
+  controlID: 17
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 454
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -94,8 +94,8 @@ MonoBehaviour:
     y: 0
     width: 362
     height: 561
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 99
+  controlID: 108
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 100
+  controlID: 109
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -318,36 +318,36 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/AdamFolder/Animation exterior
+    - Assets/AdamFolder/Character Animations/Textures/Materials for characters/Materials
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/AdamFolder/Animation exterior
+  - Assets/AdamFolder/Character Animations/Textures/Materials for characters/Materials
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Stuff im vaguely aware of\DKIT_CollaborativeProject\Respond
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: be940000
-    m_LastClickedID: 38078
-    m_ExpandedIDs: 000000000694000010940000be94000000ca9a3b
+    m_SelectedIDs: ced10000
+    m_LastClickedID: 53710
+    m_ExpandedIDs: 00000000309600003a96000072960000a8d10000cad1000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Import of Animations
+      m_OriginalName: Import of Animations
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 38520
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 5}
     m_SearchString: 
@@ -361,7 +361,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000006940000
+    m_ExpandedIDs: 0000000030960000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -490,10 +490,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
+      scrollPos: {x: 0, y: 777}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 2afbffff7a790000c47a0000407f0000
+      m_ExpandedIDs: 2afbffff047900002a7a0000f87a0000fc7a0000507b00009a7b0000267f0000507f00002a800000ce810000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -743,9 +743,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -27.815187, y: -79.227684, z: -62.34559}
+    m_Target: {x: -24.25885, y: -68.38748, z: -0.23696586}
     speed: 2
-    m_Value: {x: -27.815187, y: -79.227684, z: -62.34559}
+    m_Value: {x: -24.25885, y: -68.38748, z: -0.23696586}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -792,13 +792,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.009300017, y: 0.9059026, z: -0.42295477, w: -0.019891039}
+    m_Target: {x: 0.4938972, y: -0.5060706, z: 0.49649948, w: 0.50350624}
     speed: 2
-    m_Value: {x: -0.009329691, y: 0.9052525, z: -0.42430627, w: -0.019876745}
+    m_Value: {x: 0.49313408, y: -0.506807, z: 0.4972218, w: 0.5027284}
   m_Size:
-    m_Target: 62.85292
+    m_Target: 45.407753
     speed: 2
-    m_Value: 60.146336
+    m_Value: 45.407753
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -885,7 +885,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
