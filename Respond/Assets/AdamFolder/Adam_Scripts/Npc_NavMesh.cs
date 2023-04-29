@@ -7,7 +7,7 @@ public class Npc_NavMesh : MonoBehaviour
 
 {
 public enum AIState {
-    Idle,Panic,Following
+    Idle,Roam,Following
 }
     private NavMeshAgent _navMeshAgent;
     private GameObject Tagged;
@@ -24,7 +24,7 @@ public enum AIState {
       case AIState.Idle:
          // do nothing
          break;
-      case AIState.Panic:
+      case AIState.Roam:
          // move to a random location on the NavMesh
          if (!_navMeshAgent.pathPending && _navMeshAgent.remainingDistance < 0.1f) {
             SetRandomDestination();
@@ -36,13 +36,13 @@ public enum AIState {
            }     
    
  float distanceToPlayer = Vector3.Distance(transform.position, Tagged.transform.position);
-   if ((currentState == AIState.Idle || currentState == AIState.Panic) && distanceToPlayer < 5f) {
+   if ((currentState == AIState.Idle || currentState == AIState.Roam) && distanceToPlayer < 5f) {
       {
          currentState = AIState.Following;
       }
       if ((currentState == AIState.Following) && distanceToPlayer > 5f) {
          {
-            currentState = AIState.Panic;
+            currentState = AIState.Roam;
          } 
       }
       
