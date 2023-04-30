@@ -7,67 +7,16 @@
     <list default="true" id="e309aa41-eb02-47e1-ac5f-e05f5d980bae" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Respond/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Respond/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Adam_Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AdamFolder/Adam_Scene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Adam_Scene/NavMesh.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AdamFolder/Adam_Scene/NavMesh.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Adam_Scripts/Npc_NavMesh.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AdamFolder/Adam_Scripts/Npc_NavMesh.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Test Animations.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Test Animations/Banging Fist.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Test Animations/Banging Fist.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Test Animations/Goalkeeper Idle.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Test Animations/Goalkeeper Idle.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Test Animations/Hanging Idle.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Test Animations/Hanging Idle.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Test Animations/Idle.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Test Animations/Idle.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Test Animations/New controllers.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Test Animations/New controllers/Goal.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Test Animations/New controllers/Goal.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Test Animations/New controllers/Hanging.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Test Animations/New controllers/Hanging.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Test Animations/New controllers/Indoor.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Test Animations/New controllers/Indoor.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Test Animations/New controllers/Kick.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Test Animations/New controllers/Kick.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Test Animations/New controllers/Lookout.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Test Animations/New controllers/Lookout.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Test Animations/New controllers/New Animator Controller.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Test Animations/New controllers/New Animator Controller.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Test Animations/New controllers/Run.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Test Animations/New controllers/Run.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Test Animations/New controllers/Sandbox.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Test Animations/New controllers/Sandbox.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Test Animations/New controllers/Sore loser.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Test Animations/New controllers/Sore loser.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Test Animations/New controllers/Talk standing.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Test Animations/New controllers/Talk standing.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Test Animations/New controllers/Walk.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Test Animations/New controllers/Walk.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Test Animations/New controllers/Winner.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Test Animations/New controllers/Winner.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Test Animations/Rapping.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Test Animations/Rapping.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Test Animations/Run Forward.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Test Animations/Run Forward.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Test Animations/Running.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Test Animations/Running.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Test Animations/Sitting Idle.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Test Animations/Sitting Idle.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Test Animations/Sitting Victory.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Test Animations/Sitting Victory.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Test Animations/Talking (1).fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Test Animations/Talking (1).fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Test Animations/Talking.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Test Animations/Talking.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Test Animations/Walking (2).fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Test Animations/Walking (2).fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/XR/Settings/OpenXR Package Settings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/XR/Settings/OpenXR Package Settings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker1-prev.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker2-prev.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker3-prev.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,6 +26,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/AdamFolder/Adam_Scripts/Npc_NavMesh.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/OldMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_Text.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -164,6 +114,8 @@
       <workItem from="1682372431313" duration="596000" />
       <workItem from="1682379843039" duration="52000" />
       <workItem from="1682764181533" duration="2193000" />
+      <workItem from="1682860351832" duration="2467000" />
+      <workItem from="1682882155013" duration="1288000" />
     </task>
     <servers />
   </component>

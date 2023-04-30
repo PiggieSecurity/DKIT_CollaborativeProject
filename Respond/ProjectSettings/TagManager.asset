@@ -7,6 +7,11 @@ TagManager:
   - ground
   - Victim
   - Epipen
+  - Audio
+  - AI
+  - phoneObject
+  - Chaser
+  - Tagged
   layers:
   - Default
   - TransparentFX
