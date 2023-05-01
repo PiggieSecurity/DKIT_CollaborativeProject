@@ -118,5 +118,4 @@ Free smartphone: 3D Electronics (2017) Unity Asset Store. Vertex Studio. Availab
 
 Free smartphone :
 Low poly simple furniture free: 3D furniture (2023) Unity Asset Store. Gobormu. Available at: https://assetstore.unity.com/packages/3d/props/furniture/low-poly-simple-furniture-free-240197 (Accessed: 2023). 
-![image](https://user-images.githubusercontent.com/100961778/235415244-55c65b00-c28c-412b-8d06-089b744eea2d.png)
 
