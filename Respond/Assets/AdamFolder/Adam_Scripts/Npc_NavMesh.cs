@@ -4,6 +4,7 @@ using UnityEngine.AI;
 public class Npc_NavMesh : MonoBehaviour
 
 {
+   //States created for Characters
 public enum AIState {
     Roam,Chase
 }
@@ -17,10 +18,10 @@ public enum AIState {
     }
 
     void Update() {
-         
+         //Switches between the two states 
            switch (currentState) {
               case AIState.Roam:
-         // move to a random location on the NavMesh
+         // Selects random location on nav mesh
          if (!_navMeshAgent.pathPending && _navMeshAgent.remainingDistance < 0.1f) {
             SetRandomDestination();
          }
