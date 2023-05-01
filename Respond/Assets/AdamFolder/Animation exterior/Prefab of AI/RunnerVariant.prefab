@@ -25,17 +25,17 @@ PrefabInstance:
     - target: {fileID: 5085693500422891019, guid: d80c0180f60135d41becf626c9b0a5c8,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -12.063595
+      value: -25.511616
       objectReference: {fileID: 0}
     - target: {fileID: 5085693500422891019, guid: d80c0180f60135d41becf626c9b0a5c8,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.4281931
       objectReference: {fileID: 0}
     - target: {fileID: 5085693500422891019, guid: d80c0180f60135d41becf626c9b0a5c8,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 8.856779
+      value: -3.7086782
       objectReference: {fileID: 0}
     - target: {fileID: 5085693500422891019, guid: d80c0180f60135d41becf626c9b0a5c8,
         type: 3}
@@ -75,7 +75,7 @@ PrefabInstance:
     - target: {fileID: 5611436652964117681, guid: d80c0180f60135d41becf626c9b0a5c8,
         type: 3}
       propertyPath: m_Name
-      value: Runner
+      value: RunnerVariant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d80c0180f60135d41becf626c9b0a5c8, type: 3}
@@ -120,3 +120,23 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &8986274551585150247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3156603406174514114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af7328037e20af04982fed6331cfbc27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RunnerVariant: {fileID: 3156603406174514114}
+  SpawnMovementManager:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  numberOfChasers: 5
+  spawnDelay: 6

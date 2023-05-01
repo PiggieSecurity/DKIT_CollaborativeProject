@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -19,7 +17,7 @@ public enum AIState {
     }
 
     void Update() {
-
+         
            switch (currentState) {
               case AIState.Roam:
          // move to a random location on the NavMesh
@@ -27,6 +25,7 @@ public enum AIState {
             SetRandomDestination();
          }
          break;
+              // Character will try to collide with the Tagged model
         case AIState.Chase:
         _navMeshAgent.SetDestination(Runner.transform.position);
         break; 
@@ -42,7 +41,6 @@ public enum AIState {
             currentState = AIState.Roam;
          } 
       }
-      
    }
    void SetRandomDestination() {
       var randomDirection = Random.insideUnitSphere * 10f;
@@ -51,7 +49,5 @@ public enum AIState {
       NavMesh.SamplePosition(randomDirection, out hit, 10f, NavMesh.AllAreas);
       _navMeshAgent.SetDestination(hit.position);
    }
-
-}
-    
+    }
 }
