@@ -12,6 +12,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/AdamFolder/Adam_Scripts/Npc_NavMesh.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.shadergraph@12.1.7/Editor/Data/Graphs/SerializableTexture.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_Text.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@2.3.0/Runtime/Interaction/Interactables/XRBaseInteractable.deprecated.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -99,7 +100,7 @@
       <workItem from="1682361087582" duration="1010000" />
       <workItem from="1682372431313" duration="596000" />
       <workItem from="1682379843039" duration="52000" />
-      <workItem from="1682896503400" duration="2060000" />
+      <workItem from="1682896503400" duration="13248000" />
     </task>
     <servers />
   </component>

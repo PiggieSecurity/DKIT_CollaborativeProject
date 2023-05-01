@@ -11050,18 +11050,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 513459628}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &521245231 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8678925921390379804, guid: 3c85ccc762849154fbf401481194283d,
-    type: 3}
-  m_PrefabInstance: {fileID: 8678925921911492915}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &524257860
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12495,6 +12483,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d499599f125eedf4192b6cc4eaeca15c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playSound: {fileID: 0}
 --- !u!65 &567822068
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15991,8 +15980,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3d3d968b01feb24a9965e569e5e271c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  InfoText: {fileID: 521245231}
-  QuestListText: {fileID: 2014072240}
+  InfoText: {fileID: 0}
+  QuestListText: {fileID: 0}
   TM: {fileID: 1485547676}
 --- !u!1001 &718924863
 PrefabInstance:
@@ -16259,6 +16248,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   winscreen: {fileID: 632122487}
   LoseScreen: {fileID: 632788269}
+  Ambulancescreen: {fileID: 0}
 --- !u!1 &720728420
 GameObject:
   m_ObjectHideFlags: 0
@@ -16975,7 +16965,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a093c2a8a885ff42940a6a699aa26be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TM: {fileID: 1485547676}
 --- !u!1001 &746386341
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24121,6 +24110,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d499599f125eedf4192b6cc4eaeca15c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playSound: {fileID: 0}
 --- !u!65 &996850822
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28400,6 +28390,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5362a76809c617a4cb9a1096a6f52f30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  FirstPosition: {fileID: 0}
 --- !u!1001 &1132865748
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30634,6 +30625,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5362a76809c617a4cb9a1096a6f52f30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  FirstPosition: {fileID: 0}
 --- !u!195 &1196153143
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -48658,9 +48650,11 @@ MonoBehaviour:
   phoneScreenCanvas: {fileID: 941746492}
   onCallCanvas: {fileID: 1055867088}
   myCall: {fileID: 1411190641}
-  delInput: {fileID: 482731105}
+  deleteInput: {fileID: 482731105}
   endCall: {fileID: 538345246}
-  endCall2: {fileID: 5586343}
+  callButtonIsPressed: 0
+  endCallButtonPressed: 0
+  deleteButtonPressed: 0
   phoneGrab: {fileID: 1465118979}
   phoneSound: []
   callingSound: {fileID: 1961792595}
@@ -49840,18 +49834,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2008336752}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2014072240 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8678925923119701123, guid: 3c85ccc762849154fbf401481194283d,
-    type: 3}
-  m_PrefabInstance: {fileID: 8678925921911492915}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2015861758
 GameObject:
   m_ObjectHideFlags: 0

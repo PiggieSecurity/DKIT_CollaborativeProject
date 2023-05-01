@@ -14,31 +14,27 @@ public class GrabbingPhone : MonoBehaviour
 {
     public  XRGrabInteractable phoneGrab;
     public GameObject phoneScreenCanvas;
+    public GameObject callingScreenCanvas;
+    public GameObject onCallCanvas;
+
     
     // Start is called before the first frame update
     void Start()
     {
         phoneGrab = GetComponent<XRGrabInteractable>();
-        
     }
 
     //function for grabbing phone ties with the listener
     public void PhoneGrabbed(XRBaseInteractor interactor)
     {
-        
-        
-            phoneScreenCanvas.gameObject.SetActive(true);
-           
+        phoneScreenCanvas.gameObject.SetActive(true);
     }
     
     // function for phone being dropped, tied to the listener
     public void PhoneDropped(XRBaseInteractor interactor)
     {
-        
-        
-            phoneScreenCanvas.gameObject.SetActive(false);
-          
-        
-
+        phoneScreenCanvas.gameObject.SetActive(false);
+        onCallCanvas.gameObject.SetActive(false);
+        callingScreenCanvas.gameObject.SetActive(false);
     }
 }

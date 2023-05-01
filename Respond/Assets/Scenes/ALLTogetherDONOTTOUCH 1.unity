@@ -6175,7 +6175,7 @@ ParticleSystem:
   emitterVelocityMode: 1
   looping: 1
   prewarm: 0
-  playOnAwake: 0
+  playOnAwake: 1
   useUnscaledTime: 0
   autoRandomSeed: 1
   startDelay:
@@ -25946,7 +25946,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6803edce0201f574f923fd9d10e5b30a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 0}
+  m_InteractionManager: {fileID: 834899173}
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -27853,7 +27853,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6803edce0201f574f923fd9d10e5b30a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 0}
+  m_InteractionManager: {fileID: 834899173}
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -30323,6 +30323,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   phoneGrab: {fileID: 1992484258}
   phoneScreenCanvas: {fileID: 965341726}
+  callingScreenCanvas: {fileID: 679228537}
+  onCallCanvas: {fileID: 2122506266}
 --- !u!82 &990836445
 AudioSource:
   m_ObjectHideFlags: 0
@@ -30627,13 +30629,6 @@ MonoBehaviour:
   callingScreenCanvas: {fileID: 679228537}
   phoneScreenCanvas: {fileID: 965341726}
   onCallCanvas: {fileID: 2122506266}
-  MyCall: {fileID: 252806597}
-  DeleteInput: {fileID: 889848246}
-  EndCall: {fileID: 1065838085}
-  EndCall2: {fileID: 576082055}
-  callButtonIsPressed: 0
-  endCallButtonPressed: 0
-  deleteButtonPressed: 0
   phoneGrab: {fileID: 1992484258}
   phoneSound: []
   callingSound: {fileID: 990836447}
@@ -32917,8 +32912,9 @@ GameObject:
   - component: {fileID: 1055155381}
   - component: {fileID: 1055155380}
   - component: {fileID: 1055155378}
+  - component: {fileID: 1055155383}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: SensorCube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33015,6 +33011,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1055155376}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1055155383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1055155376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 113fc3f4ba4573e40a5b72da954bee95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  videoWait: {fileID: 115344841}
 --- !u!1001 &1056736313
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43278,7 +43287,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4e9bb637798979a4ca9e30741b7e2c77, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4e9bb637798979a4ca9e30741b7e2c77, type: 3}
       propertyPath: m_LocalScale.x
@@ -56386,7 +56395,7 @@ Halo:
   m_Color:
     serializedVersion: 2
     rgba: 4278648703
-  m_Size: 20
+  m_Size: 40
 --- !u!65 &1992484260
 BoxCollider:
   m_ObjectHideFlags: 0

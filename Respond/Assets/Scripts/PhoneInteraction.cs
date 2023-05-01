@@ -11,8 +11,6 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class PhoneInteraction : MonoBehaviour
 {
-    //[SerializeField] private XRBaseInteractor interactorR ;
-    //[SerializeField] private XRBaseInteractor interactorL ;
 
     [SerializeField] private TMP_Text NumberInput;
     
@@ -25,17 +23,6 @@ public class PhoneInteraction : MonoBehaviour
     public GameObject phoneScreenCanvas;
     public GameObject onCallCanvas;
     
-    // initializing call button , delete button, and end call button x2
-    public Button MyCall;
-    public Button DeleteInput;
-    public Button EndCall;
-    public Button EndCall2;
-
-    // boolean for call button,end call button, delete button to be used to check if it is and isn't pressed
-  public  bool callButtonIsPressed;
-    public bool endCallButtonPressed;
-    public bool deleteButtonPressed;
-    
     //component for checking if phone is being grabbed 
     public  XRGrabInteractable phoneGrab;
 
@@ -47,13 +34,7 @@ public class PhoneInteraction : MonoBehaviour
     public AudioSource callingSound;
     public AudioSource phoneOperator;
     public AudioSource phoneEnd;
-
-    /*
-    public PhoneInteraction(bool phonePickedUp)
-    {
-        this.phonePickedUp = phonePickedUp;
-    }
-    */
+    
 
     //convert the numbers to string 
     public void Number(int number)
@@ -75,96 +56,17 @@ public class PhoneInteraction : MonoBehaviour
         phoneScreenCanvas.SetActive(false);// hide the phone screen at the start of the game 
         callingScreenCanvas.SetActive(false);// hide call screen canvas at the start
         onCallCanvas.SetActive(false);// hide oncall screen canvas at the start
-        
-        callButtonIsPressed = false;// call button hasnt been pressed 
-        
+
         // setting the grabbed boolean to false at the start and adding a listener for the phone to be grabbed 
         isGrabbed = false;
         
-            /*
-            // this statemnet properly intializes the phone grab and make sure its value isnt null before adding a listener 
-        if (phoneGrab != null)
-        {
-            phoneGrab.onSelectEntered.AddListener(PhoneGrabbed);
-            phoneGrab.onSelectExited.AddListener(PhoneDropped);
-            
-        }
-        */
-       
-        
-    }
-
-    
-    void Update()
-    {
-        
-        /*// check if button is pressed 
-        if (Input.GetButtonDown("MyCall"))
-        {
-            callButtonIsPressed = true;
-        }*/
-        
-        // check is end call button pressed
-        
-        if (Input.GetButtonDown("EndCall") )
-        {
-            endCallButtonPressed = true;
-        }
-        
-        if (Input.GetButtonDown("EndCall2") )
-        {
-            endCallButtonPressed = true;
-        }
-        
-        // check if delete button is pressed 
-        if (Input.GetButtonDown("DeleteInput"))
-        {
-            deleteButtonPressed = true;
-            DeleteText();
-        }
-        
-        
-        /*
-        // setting screen visibilty for when you pick up and drop phone 
-        switch (isGrabbed)
-        {
-            case true:
-                PhoneGrabbed();
-                break;
-            case false:
-              PhoneDropped();
-                break;
-        }
-        */
-
-       
-    } 
-    
-    /*//function for grabbing phone ties with the listener
-    public void PhoneGrabbed(XRBaseInteractor interactor)
-    {
-        if (!isGrabbed)
-        {
-            phoneScreenCanvas.gameObject.SetActive(true);
-            isGrabbed = true;
-        }
     }
     
-   // function for phone being dropped, tied to the listener
-   public void PhoneDropped(XRBaseInteractor interactor)
-   {
-       if (isGrabbed)
-       {
-           phoneScreenCanvas.gameObject.SetActive(false);
-           isGrabbed = false;
-       }
-
-   }*/
     // function for when you press call or delete
     public void EnterNumberPressButton()
     {
         //if statement if the text entered from pressing the buttons is  999 or 112
-        if (NumberInput.text == emergNum /*&& callButtonIsPressed==true*/ || NumberInput.text == emergNum2  /*&& callButtonIsPressed==true*/)
+        if (NumberInput.text == emergNum  || NumberInput.text == emergNum2  )
         {
             //calls method for calling screen 
             CallingScreen();
@@ -172,7 +74,7 @@ public class PhoneInteraction : MonoBehaviour
         }
         
         //if statement if the text entered from pressing the buttons is not 999 or 112
-        //if (NumberInput.text != emergNum && callButtonIsPressed==true || NumberInput.text != emergNum2 && callButtonIsPressed==true)
+        
         else
         {
             NumberInput.text = "Incorrect";
@@ -183,7 +85,7 @@ public class PhoneInteraction : MonoBehaviour
         IEnumerator IncorrectErrorMessage()
         {
             yield return new WaitForSeconds(3);// 3 second wait
-            NumberInput.text = "";//
+            DeleteText();//delete text function
 
         }
     }
@@ -215,22 +117,13 @@ public class PhoneInteraction : MonoBehaviour
         {
             //  greeting and saying that emergency services are on the way to the location
             phoneOperator.Play();
-            
+
             //invokes the finished method when the phone operator stops speaking
-            Invoke("Finished",phoneOperator.clip.length );
+            Invoke("Finished", phoneOperator.clip.length);
 
         }
-
-        if (endCallButtonPressed==true)
-        {
-           
-          phoneOperator.Stop();
-          Finished();// calls this method 
-            
-        }
-       
-        // end call button add code for it to stop the call and end all sounds  
     }
+
 // function for when the phone call ends
     public void Finished()
     {
@@ -249,7 +142,6 @@ public class PhoneInteraction : MonoBehaviour
     }
 
 
-    
     
 }
 
