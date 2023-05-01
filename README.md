@@ -65,5 +65,58 @@ https://www.mixamo.com/#/?type=Motion%2CMotionPack
 -Sitting idle
 -Walking
 
+references:
+•	Audiosource optimisation array
+https://answers.unity.com/questions/52017/2-audio-sources-on-a-game-object-how-use-script-to.html 
+No longer being used : 
+to fix error messages at the time
+Videos: 
+How to make a door Unlock with keypad in Unity :
+https://www.youtube.com/watch?v=TO0g5jyjpYU 
+How to make a VR button:
+https://www.youtube.com/watch?v=lPPa9y_czlE
+VR keyboard:
+https://www.youtube.com/watch?v=PyKW9kecyqg 
+•	invoke clip length
+https://www.youtube.com/watch?v=sOLfxVbUrAc 
 
+
+https://forum.unity.com/threads/nullreferenceexception-object-reference-not-set-to-an-instance-of-an-object.1153517/ 
+https://www.drugs.com/medical-answers/epipen-injection-3564167/ information on epipen
+
+
+phone sounds:
+phone operator - original audio by adam kavanagh
+
+•	phoneEnd sound effect:
+https://freesound.org/people/lyd4tuna/sounds/453267/ 
+
+•	Calling sound effect
+https://freesound.org/people/elliott.klein/sounds/591163/
+
+•	Turbo Squid
+-	Bags
+https://www.turbosquid.com/3d-models/3d-backpack-lowpoly-2024285
+https://www.turbosquid.com/3d-models/pink-bag-3d-1359705 
+-	Window
+https://www.turbosquid.com/3d-models/3d-window-1740271# 
+-	Corkboard
+https://www.turbosquid.com/3d-models/3d-note-board-2001727 
+-	Chalkboard
+https://www.turbosquid.com/3d-models/black-board-3d-model-1357354 
+-	Paper
+https://www.turbosquid.com/3d-models/3d-model-open-book-paper-1480808 
+-	Door 
+https://www.turbosquid.com/3d-models/wooden-door-width-glass-3d-3ds/424148 
+•	Needpix.com
+•	Green Chalkboard Texture
+https://www.needpix.com/photo/download/441100/chalkboard-blackboard-green-background-school-texture-dark-green-backdrop-smudge 
+
+•	Unity Asset store 
+Low poly furniture :
+Free smartphone: 3D Electronics (2017) Unity Asset Store. Vertex Studio. Available at: https://assetstore.unity.com/packages/3d/props/electronics/free-smartphone-90324 (Accessed: 2023). 
+
+Free smartphone :
+Low poly simple furniture free: 3D furniture (2023) Unity Asset Store. Gobormu. Available at: https://assetstore.unity.com/packages/3d/props/furniture/low-poly-simple-furniture-free-240197 (Accessed: 2023). 
+![image](https://user-images.githubusercontent.com/100961778/235415244-55c65b00-c28c-412b-8d06-089b744eea2d.png)
 
