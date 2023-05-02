@@ -6,23 +6,142 @@
   <component name="ChangeListManager">
     <list default="true" id="e309aa41-eb02-47e1-ac5f-e05f5d980bae" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Respond/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Respond/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AISpawn.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AISpawn.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Adam scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Adam scripts/AI_Destroy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Adam scripts/AI_Destroy.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Adam scripts/AlternativeAINavMesh.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Adam scripts/AlternativeAINavMesh.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Adam scripts/NavMeshAI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Adam scripts/NavMeshAI.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Adam_Scripts/Npc_NavMesh.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AdamFolder/Adam_Scripts/Npc_NavMesh.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sittingspawn.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sittingspawn.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Spawner.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Spawner.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Animations.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Animations/Animation used.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Animations/Animation used/Dying 1.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Animations/Animation used/Dying 1.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Animations/Animation used/Dying.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Animations/Animation used/Dying.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Animations/Animation used/Searching Pockets.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Animations/Animation used/Searching Pockets.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Animations/Animation used/Sitting Dazed.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Animations/Animation used/Sitting Dazed.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Animations/Animation used/Sitting Idle.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Animations/Animation used/Sitting Idle.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Animations/Animation used/Sitting Talking (1).fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Animations/Animation used/Sitting Talking (1).fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Animations/Animation used/Sitting Talking.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Animations/Animation used/Sitting Talking.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Animations/Charlie.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Animations/Charlie.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Animations/Coughing.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Animations/Coughing.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Animations/New Animator Controller.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Animations/New Animator Controller.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Animations/Patrick.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Animations/Patrick.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Animations/Rebecca Controller.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Animations/Rebecca Controller.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Animations/Rough Coughing.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Animations/Rough Coughing.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Animations/Searching.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Animations/Searching.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Animations/Sitting Idle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Animations/Sitting Idle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Animations/Talking two.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Animations/Talking two.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Animations/Talking.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Animations/Talking.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Animations/characterMedium.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Animations/characterMedium.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Character Animations.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Character Animations/Animations.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Character Animations/Animations/Dying (1).fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Character Animations/Animations/Dying (1).fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Character Animations/Animations/Dying (1)@Getting Up.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Character Animations/Animations/Dying (1)@Getting Up.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Character Animations/Animations/Searching Files High.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Character Animations/Animations/Searching Files High.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Character Animations/Animations/Searching Pockets (1).fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Character Animations/Animations/Searching Pockets (1).fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Character Animations/Animations/Sitting.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Character Animations/Animations/Sitting.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Character Animations/Animations/Walking (1).fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Character Animations/Animations/Walking (1).fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Character Animations/Animations/characterMedium 1.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Character Animations/Animations/characterMedium 1.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Character Animations/Animations/characterMedium.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Character Animations/Animations/characterMedium.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Character Animations/Controllers.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Character Animations/Controllers/AIController.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Character Animations/Controllers/AIController.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Character Animations/Controllers/DyingController.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Character Animations/Controllers/DyingController.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Character Animations/Controllers/SearchingController.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Character Animations/Controllers/SearchingController.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Character Animations/Controllers/SittingControler.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Character Animations/Controllers/SittingControler.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Character Animations/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Character Animations/Textures/Materials for characters.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Character Animations/Textures/Materials for characters/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Character Animations/Textures/Materials for characters/Materials/skaterFemaleA.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Character Animations/Textures/Materials for characters/Materials/skaterFemaleA.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Character Animations/Textures/Materials for characters/Materials/skaterMaleA.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Character Animations/Textures/Materials for characters/Materials/skaterMaleA.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Character Animations/Textures/Materials for characters/Materials/survivorFemaleA.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Character Animations/Textures/Materials for characters/Materials/survivorFemaleA.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Import of Animations.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Import of Animations/Dying (1).fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Import of Animations/Dying (1).fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Import of Animations/Search Controller.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Import of Animations/Search Controller.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Import of Animations/Searching Files High.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Import of Animations/Searching Files High.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Import of Animations/Sitting Controller.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Import of Animations/Sitting Controller.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Import of Animations/Sitting.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Import of Animations/Sitting.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Import of Animations/Victim controller.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Import of Animations/Victim controller.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Staionary Prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Staionary Prefab/Climb.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Staionary Prefab/Climb.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Staionary Prefab/Conversation.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Staionary Prefab/Conversation.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Staionary Prefab/Goal.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Staionary Prefab/Goal.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Staionary Prefab/Kicking.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Staionary Prefab/Kicking.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Staionary Prefab/Resting.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Staionary Prefab/Resting.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Staionary Prefab/Sitting (outside) (1).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Staionary Prefab/Sitting (outside) (1).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Staionary Prefab/Small child Looking.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Staionary Prefab/Small child Looking.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Staionary Prefab/Sore Loser (Outside).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Staionary Prefab/Sore Loser (Outside).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Staionary Prefab/winner.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AdamFolder/Staionary Prefab/winner.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Adam_Scene.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Adam_Scene/Double check of navmesh.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Adam_Scene/Double check of navmesh.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Adam_Scene/Double check of navmesh.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Adam_Scene/Double check of navmesh/NavMesh.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Adam_Scene/Double check of navmesh/NavMesh.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Adam_Scene/NavMesh.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Adam_Scene/NavMesh.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ChaseAI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ChaseAI.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OldMovement.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OldMovement.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker1-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker2-prev.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe3.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe4.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe5.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe6.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe7.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,9 +151,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../../../2023-ARVR2-PIE2-EnemyAI/Assets/scripts/enemySpawn.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../CollabProject_Respond/Respond/Assets/Scripts/AIspawn.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/AISpawn.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/AdamFolder/Adam_Scripts/Npc_NavMesh.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/OldMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_Text.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -126,6 +243,8 @@
       <workItem from="1682882155013" duration="2908000" />
       <workItem from="1682896867843" duration="7339000" />
       <workItem from="1682916513520" duration="3929000" />
+      <workItem from="1683013375265" duration="86000" />
+      <workItem from="1683013490495" duration="3617000" />
     </task>
     <servers />
   </component>

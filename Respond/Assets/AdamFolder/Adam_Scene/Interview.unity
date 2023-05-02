@@ -23814,14 +23814,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RunnerVariant: {fileID: 3156603406174514114, guid: c8be3bed38f00f44a8beb0c253895e73,
     type: 3}
-  SpawnMovementManager:
-  - {fileID: 1028110101}
-  - {fileID: 1973851421}
-  - {fileID: 252464700}
-  - {fileID: 447710207}
-  - {fileID: 1791253930}
-  - {fileID: 1862028026}
-  - {fileID: 1479053798}
+  SpawnMovementManager: []
   numberOfChasers: 5
   spawnDelay: 6
 --- !u!1001 &1029050582
